@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding: 0 10px;
+        }
+
+        .product {
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+            transition: transform 0.3s ease;
+            font-size: 14px;
+            outline: 1px solid #ccc;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+            outline: 2px solid #ccc;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            max-height: 150px;
+        }
+
+        .product p {
+            font-size: 14px;
+            line-height: 1.5;
+            overflow: hidden;
+            max-height: 75px;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <!-- Puedes agregar un encabezado si lo deseas -->
+</header>
+
+<div class="container">
+    <h2>Productos Disponibles</h2>
+
+    <div class="product-list">
+        <!-- Producto 1 -->
+        <div class="product">
+            <input type="checkbox" class="product-checkbox" id="producto1">
+            <img src="imagenes/camara domo.jpg" alt="Producto 1">
+            <h3> Cámara Domo Seisa </h3>
+            <p>CAMARA IP WIFI EXTERIOR IPC-S045
+                Camara de seguridad para exterior 1080 Seisa Ipc-s045,<br> Cámara IP PTZ Super Mini con conectividad WiFi, resolución 1080P,<br> función de Zoom Digital, diseño tipo domo de alta velocidad</p>
+            <p>Precio: $45.000</p>
+            <!-- Agrega cualquier otra información relevante sobre el producto -->
+        </div>
+        <!-- Producto 2 -->
+        <div class="product">
+            <input type="checkbox" class="product-checkbox" id="producto2">
+            <img src="camaras/CAMARA 1080P IPC-ZAS06 detalles.jpg" alt="Producto 2">
+            <h3>Cámara IPC-ZAS06 </h3>
+            <p>La resolución de la cámara es de 2MP 1080P (ARRIBA) + 2MP 1080P (Abajo) (4MP (1920*2160)). La lente es fija de 2*3,6 mm (estándar). La inclinación panorámica es horizontal: 355°, vertical: 90°. La codificación de vídeo es H.265.
+
+                La cámara tiene 4 luces infrarrojas y 4 luces blancas. La visión nocturna es de luz de estrellas a todo color/visión nocturna por infrarrojos. La conexión de red admite WIFI de 2,4 GHz y conexión de punto de acceso AP.</p>
+            <p>Precio: $65.000</p>
+            <!-- Agrega cualquier otra información relevante sobre el producto -->
+        </div>
+        <!-- Producto 3 -->
+        <div class="product">
+            <input type="checkbox" class="product-checkbox" id="producto3">
+            <img src="camaras/mini camara astronauta.jpg" alt="Producto 3">
+            <h3>cámara IPC-ZAS02 </h3>
+            <p>Ya no tendrás que preocuparte por la vigilancia de tu casa o negocio. Con la cámara Seisa IP vas a tener un mayor control sobre los espacios y seguridad las 24 horas.
+
+                Un modelo de acuerdo a tus necesidades
+                Esta cámara tipo IP te permitirá verificar en tiempo real lo que está sucediendo en el lugar que querés proteger, ya que está especialmente diseñada para enviar señales en tiempo real a través de Internet. Cuenta con resolución de 1080p, que ofrece una vigilancia clara y precisa sobre los espacios.
+            </p>
+            <p>Precio: $35.000</p>
+            <!-- Agrega cualquier otra información relevante sobre el producto -->
+        </div>
+        <!-- Producto 4 -->
+        <div class="product">
+            <input type="checkbox" class="product-checkbox" id="producto4">
+            <img src="camaras/CAMARA CON WIFI IPC-I109.jpg" alt="Producto 4">
+            <h3>cámara IPC-i109 </h3>
+            <p>Camara De Seguridad Ip Wifi Audio Monitoreo 360 Color Blanco
+                CAMARA CON WIFI IPC-I109
+            </p>
+            <p>Precio: $35.000</p>
+            <!-- Agrega cualquier otra información relevante sobre el producto -->
+        </div>
+        <!-- Producto 5 -->
+        <div class="product">
+            <input type="checkbox" class="product-checkbox" id="producto5">
+            <img src="camaras/Camara De Seguridad Ip Wifi Audio Monitoreo 360 Ipc-zas05 descripcion.jpg" alt="Producto 5">
+            <h3>cámara IPC-ZAS05 </h3>
+            <p>Sensor: 1/3" CMOS V581SE</p>
+            <p>Solución: V584SE</p>
+            <p>Resolución Cámara principal: 1080P(1280x720) a 25 FPS</p>
+            <p>Codificación de compresión: H.264</p>
+            <p>Lente: 3,6 mm (+ CORTE IR)</p>
+            <p>Iluminación: 0 Lux@ 850nm</p>
+            <p>Encendido Leds: Automático por sensor LDR</p>
+            <p>Movimiento: Hor 90°/Ver 355°</p>
+            <p>Entrada:100V-240V 0.8A 50-60Hz</p>
+            <p>Salida: 5V 1.5A</p>
+            <p>Interfaz de red: WIFI (IEEE 802.11b/g/n)</p>
+            <p>P2P: iCam365</p>
+            <p>Soporte de memoria: Tarjeta TF (máx. 128 GB)</p>
+            <p>Precio: $40.000</p>
+            <!-- Agrega cualquier otra información relevante sobre el producto -->
+        </div>
+        <!-- Producto 6 -->
+        <div class="product">
+            <input type="checkbox" class="product-checkbox" id="producto6">
+            <img src="camaras/Camara Domo Triple Lente Alarma Wifi Detencion Movimiento detalle 2.jpg" alt="Producto 6">
+            <h3>cámara domo triple lente wifi </h3>
+            <p>Camara Domo Robotica Triple Lente</p>
+            <p>Apta Exterior, Luz Led , Alarma Vista Nocturna y Seguimiento inteligente</p>
+            <p>Cámara Seguridad inalámbrica Robótica que puedes instalar fácilmente y con unos cuantos toques de pantalla tendrás la cámara configurada para verla desde cualquier parte del pais.</p>
+            <p>La cabeza de la cámara puede girar 350 ° y una inclinación de 90 °. Usted puede controlarlo a través de la aplicación y obtener una vista de barrido en cada centímetro de su casa. olvídate de los puntos ciegos.</p>
+            <p>Audio bidireccional transparente</p>
+            <p>Cuando los videos de vigilancia no pueden satisfacerlo, le proporcionamos audio bidireccional en tiempo real. La cámara está construida con micrófono y altavoz. Así que puedes hablar con tus hijos a través de tu teléfono inteligente de forma remota cuando quieras.</p>
+            <p>Precio: $80.000</p>
+            <!-- Agrega cualquier otra información relevante sobre el producto -->
+        </div>
+        <!-- Producto 7 -->
+        <div class="product">
+            <input type="checkbox" class="product-checkbox" id="producto7">
+            <img src="camaras/camara exterior descripcion.jpg" alt="Producto 7">
+            <h3>CAMARA IP WIFI EXTERIOR 1080P IPC-ZAS04 </h3>
+            <p>Un modelo de acuerdo a tus necesidades</p>
+            <p>Esta cámara tipo domo es perfecta a la hora de combatir el vandalismo y las situaciones adversas gracias a su excelencia en cuanto a durabilidad. Su cúpula está encerrada en una carcasa resistente, lo que ayudará a mantenerla protegida de posibles golpes y sacudidas. Cuenta con resolución de 1080p, que ofrece una vigilancia clara y precisa sobre los espacios</p>
+            <p>Precio: $45.000</p>
+            <!-- Agrega cualquier otra información relevante sobre el producto -->
+        </div>
+        <!-- Producto 8 -->
+        <div class="product">
+            <input type="checkbox" class="product-checkbox" id="producto8">
+            <img src="camaras/camara foco descripcion.jpg" alt="Producto 8">
+            <h3>cámara foco seisa  </h3>
+            <p>Características generales</p>
+            <p>Marca: Seisa</p>
+            <p>Modelo: IPC-ZAS03</p>
+            <p>Color: Blanco</p>
+            <p>Video</p>
+            <p>Tipo de resolución: Full HD</p>
+            <p>Conectividad</p>
+            <p>Conectividad: Wi-Fi</p>
+            <p>Zoom: Zoom digital 10x</p>
+            <p>Otros</p>
+            <p>Con visión nocturna a color: No</p>
+            <p>Especificaciones</p>
+            <p>Tipo de cámara de vigilancia: IP</p>
+            <p>Calidad de resolución: HD 1080p</p>
+            <p>Lugares de montaje: Foco</p>
+            <p>Formato de la cámara espía: Foco</p>
+            <p>Tipos de conexiones: Wifi2.4ghz</p>
+            <p>Es motorizada: Sí</p>
+            <p>Tipo de movimiento: PTZ</p>
+            <p>Con visión nocturna: Sí</p>
+            <p>Precio: $27.000</p>
+            <!-- Agrega cualquier otra información relevante sobre el producto -->
+        </div>
+        <!-- Producto 9 -->
+        <div class="product">
+            <input type="checkbox" class="product-checkbox" id="producto9">
+            <img src="camaras/camara panel solar.jpg" alt="Producto 9">
+            <h3> Cámara panel solar exterior</h3>
+            <p>CAMARA IP C/PANEL SOLAR</p>
+            <p>A no tendrás que preocuparte por la vigilancia de tu casa o negocio. Con la cámara Seisa vas a tener un mayor control sobre los espacios y seguridad las 24 horas.</p>
+            <p>Cámara PTZ solar WIFI</p>
+            <p>Resolución: HD</p>
+            <p>Movimiento: Hor. 80°/Ver. 355°</p>
+            <p>Lente: 3.6mm//APP: Ubox</p>
+            <p>Precio: $90.000</p>
+            <!-- Agrega cualquier otra información relevante sobre el producto -->
+        </div>
+        <!-- Producto 10 -->
+        <div class="product">
+            <input type="checkbox" class="product-checkbox" id="producto10">
+            <img src="camaras/KIT NVR 4 CAMARAS WIFI NVR-S002-4CH.jpg" alt="Producto 10">
+            <h3> KIT NVR-S002-4CH</h3>
+            <p>A diferencia de los Kit de cámaras análogas de formato DVR, El Kit de formato NVR usa el sistema IP y ofrece la mejor calidad full HD, con menos ruido y más resolución además de transmitir datos de forma inalámbrica. En este aspecto el Kit de cámaras IP Wifi Sricam NVS001 es la mejor alternativa. Instalación sencilla, comience a usar su cámara de inmediato con nuestro proceso de configuración súper simple.</p>
+            <p>Experimente real Full HD en 1080P: con lente CMOS de ¼ de pulgada, 2 Megapixeles soporta resolución hasta 1920 x 1080. Transmisión inalámbrica hasta 80 m sin obstáculos, en interiores la transmisión máxima dependerá del entorno. Resistente a la intemperie: cámara IP con función IP66 a prueba de agua y polvo de alto grado, que puede lidiar con los peores climas.</p>
+            <p>Visión nocturna: LED de iluminación IR de matriz de 1 pieza. Rango de infrarrojos de hasta 15 m. Detección de movimiento: NVR comienza a grabar y enviar un mensaje al teléfono móvil cuando se detecta movimiento. Soporte para configurar la región de interés opcionalmente. Visualización en múltiples dispositivos: el usuario puede usar iPhone, teléfono inteligente Android, reloj iPad</p>
+            <p>Precio: $210.000</p>
+            <!-- Agrega cualquier otra información relevante sobre el producto -->
+        </div>
+        <!-- Producto 11 -->
+        <div class="product">
+            <input type="checkbox" class="product-checkbox" id="producto11">
+            <img src="imagenes/KIT NVR 8 CAMARAS WIFI NVR-S001-8CH.jpg" alt="Producto 11">
+            <h3>KIT NVR 8 CAMARAS WIFI NVR-S001-8CH</h3>
+            <p> kit de 8 camaras wifi con controlador para grabacion de video , se puede conectar al celular o  </p>
+            <p>Precio: $420.000</p>
+            <!-- Agrega cualquier otra información relevante sobre el producto -->
+        </div>
+        <!-- Producto 12 -->
+        <div class="product">
+            <input type="checkbox" class="product-checkbox" id="producto12">
+            <img src="imagenes/KIT NVR 8 CAMARAS WIFI NVR-S002-8CH11.jpg" alt="Producto 12">
+            <h3>KIT NVR 8 CAMARAS WIFI NVR-S002-8CH</h3>
+            <p> kit de 8 camaras wifi con controlador para grabacion de video , se puede conectar al celular o  </p>
+            <p>Precio: $440.000</p>
+            <!-- Agrega cualquier otra información relevante sobre el producto -->
+        </div>
+        <!-- Producto 13 -->
+        <div class="product">
+            <input type="checkbox" class="product-checkbox" id="producto13">
+            <img src="imagenes/ipc-a3x.jpg" alt="Producto 13">
+            <h3>ipc-a3x </h3>
+            <p>CAMARA IP EXTERIOR 
+
+                *Sensor: 1/4" CMOS  
+
+                *Resolución: 1280x720 a 25fps 
+
+                *Movimiento: Hor. 80°/Ver. 355° 
+
+                *Lente: 3.6mm//APP: Yi loT   </p>
+            <p>Precio: 37.000</p>
+            <!-- Agrega cualquier otra información relevante sobre el producto -->
+        </div>
+    </div>
+</div>
+
+<footer>
+    <!-- Puedes agregar un pie de página si lo deseas -->
+    <a href="pagina_principal.html"><img  alt="Ir a la página principal 🏠"></a>
+    <button onclick="finalizarCompra()">Finalizar Compra</button>
+</footer>
+
+<script>
+    function finalizarCompra() {
+        var productosSeleccionados = [];
+        var checkboxes = document.querySelectorAll('.product-checkbox:checked');
+        checkboxes.forEach(function(checkbox) {
+            var productTitle = checkbox.parentElement.querySelector('h3').textContent;
+            var productDescription = checkbox.parentElement.querySelectorAll('p');
+            var descriptionText = "";
+            productDescription.forEach(function(paragraph) {
+                descriptionText += paragraph.textContent.trim() + "\n";
+            });
+            productosSeleccionados.push({
+                title: productTitle,
+                description: descriptionText
+            });
+        });
+        if (productosSeleccionados.length > 0) {
+            var message = "Productos seleccionados:\n\n";
+            productosSeleccionados.forEach(function(product) {
+                message += product.title + "\n" + product.description + "\n\n";
+            });
+            // Si hay más de un producto seleccionado, separarlos por espacio
+            if (productosSeleccionados.length > 1) {
+                message = message.replace(/\n\n/g, " ");
+            }
+            var url = "https://wa.me/+541134786809/?text=" + encodeURIComponent(message);
+            window.location.href = url;
+        } else {
+            alert("Por favor selecciona al menos un producto antes de finalizar la compra.");
+        }
+    }
+</script>
+</body>
+</html>

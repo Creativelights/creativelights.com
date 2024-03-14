@@ -1,0 +1,147 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0; /* Fondo gris claro */
+    color: #333; /* Texto negro */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #001f3f; /* Azul marino */
+    padding: 20px 0;
+}
+
+h1 {
+    color: #fff; /* Texto blanco */
+}
+
+.logo {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Texto blanco */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Texto amarillo al pasar el ratón */
+}
+
+/* Estilos del carrusel */
+.carousel-item img {
+    width: 75%; /* Imágenes al 75% del ancho del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+.carousel-inner {
+    background-color: #e0f7f6; /* Fondo verde agua */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #001f3f; /* Color de flechas azul marino */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1; /* Opacidad completa */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.8; /* Opacidad reducida al pasar el ratón */
+}
+
+/* Estilos de secciones */
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    color: #001f3f; /* Títulos de sección en azul marino */
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    color: #fff; /* Iconos de redes sociales en blanco */
+}
+
+.social-links li a:hover {
+    color: #ffcc00; /* Iconos de redes sociales en amarillo al pasar el ratón */
+}
+
+/* Estilos del formulario de contacto */
+#contacto {
+    background-color: #001f3f; /* Fondo azul marino */
+    color: #fff; /* Texto blanco */
+    padding: 50px 0;
+}
+
+#contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contacto label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contacto textarea,
+#contacto input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+
+#contacto input[type="submit"] {
+    background-color: #333; /* Botón oscuro */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contacto input[type="submit"]:hover {
+    background-color: #001f3f; /* Botón azul marino al pasar el ratón */
+}
